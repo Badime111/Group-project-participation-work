@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="wrapper">
+            <div class="navbar">
+            <h1>Dominic contribution</h1>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="timetable.html">Timetable</a></li>
+                <li><a href="#catalog">Catalog</a></li>
+                <li><a href="reg.html">Login</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="side1">
+                     <ol>
+                        <li><a href="cart.html">Shopping Cart</a></li><hr>
+                        <li><a href="hospital.xml">Patients Information</a></li><hr>
+                        <li><a href="table.xml">Xml Table</a></li><hr>
+                        <li><a href="list.html">List Types</a></li><hr>
+                        <li><a href="members.html">Group Members</a></li><hr>
+                     
+                     </ol>
+            </div>
+
+            <div class="side2">
+                <h1>Welcome <br>to <span>Our Webpage</span></h1>
+            </div>
+        </div>
+
+        <div class="footer"></div>
+    </div>
+
+
+    <script>
+        // Create a cookie
+        document.cookie = "username= Group 2";
+
+        // Retrieve the cookie
+        var cookieValue = document.cookie
+            .split('; ')
+            .find(row => row.startsWith('username='))
+            .split('=')[1];
+
+        // Display the cookie value
+        alert("Welcome back: " + cookieValue);
+    </script>
+
+
+<!-- <script>
+    // Check if session storage is supported
+    if (typeof(Storage) !== "undefined") {
+        // Store data in session storage
+        sessionStorage.setItem("username", "group 2");
+
+        // Retrieve data from session storage
+        var username = sessionStorage.getItem("username");
+
+        // Display the stored data
+        alert("Username stored in session: " + username);
+    } else {
+        alert("Sorry, your browser does not support Web Storage...");
+    }
+</script> -->
+<div id="catalog">
+    <header id="catalog">
+        <h1>Product Catalog</h1>
+    </header>
+    
+    <div class="container">
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <div class="product-info">
+                <h2>Product 1</h2>
+                <p>Description of product 1.</p>
+                <p>Price: $19.99</p>
+            </div>
+        </div>
+    
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <div class="product-info">
+                <h2>Product 2</h2>
+                <p>Description of product 2.</p>
+                <p>Price: $24.99</p>
+            </div>
+        </div>
+    
+        <!-- Add more product divs as needed -->
+    </div>
+    
+    <footer>
+        <p class="copy">Group 2 &copy;2024</p>
+    </footer>
+    
+    <!-- <footer>
+        <p>&copy; 2024 Product Catalog. All rights reserved.</p>
+    </footer> -->
+</div>
+
+</body>
+</html>

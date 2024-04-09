@@ -1,0 +1,54 @@
+
+book {
+	display:table;
+	padding:20px;
+	
+    margin: 60px auto; 
+}
+    
+    
+    
+    tablebook {display:table-row;
+                }
+                
+    tablebook_title, tableAuthor_Name, tableISBN_number, tablepublisher_name, tableedition, tableprice{
+        display:table-cell;
+        padding:30px;
+        border-style:solid; 
+        border-width:2px; 
+        border-color:#000000; }
+
+tablehead{
+    display:table;
+	padding:20px;
+    display: block;
+	
+}
+
+book_title, Author_Name,ISBN_number, publisher_name, edition, price{
+    display:table-cell;
+    padding:20px;
+    padding-right: 30px;
+    color:#000000; 
+    background-color:#EFEFEF;/
+    border-style:solid; border-width:2px; border-color:#000000;
+
+}
+
+book_title{
+    color: red;
+    padding-right: 66px;
+}
+
+tableAuthor_Name{
+    color: red;
+    font-weight: bolder;
+
+}
+
+table:nth-child(1){
+    background-color: rgb(170, 169, 169);
+    padding-top: 30px;
+    padding-bottom: 31px;
+    font-weight: bolder;
+}

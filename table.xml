@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="css/xmltable.css"?>
+<!DOCTYPE books [
+    <!ELEMENT book (header, title, author, isbn, publisher, edition, price)>
+    <!ELEMENT header (#PCDATA)>
+    <!ELEMENT title (#PCDATA)>
+    <!ELEMENT author (#PCDATA)>
+    <!ELEMENT isbn (#PCDATA)>
+    <!ELEMENT publisher (#PCDATA)>
+    <!ELEMENT edition (#PCDATA)>
+    <!ELEMENT price (#PCDATA)>
+   
+]>
+<books>
+    <book>
+        <header>Title</header>
+        <header>Author</header>
+        <header>ISBN</header>
+        <header>Publisher</header>
+        <header>Edition</header>
+        <header>Price</header>
+    </book>
+
+    <book>
+        <title>The Love Story</title>
+        <author>Samuel Odoom</author>
+        <isbn>683638</isbn>
+        <publisher>Africa publisher</publisher>
+        <edition>5th edition</edition>
+        <price>5 cedis</price>
+</book>
+
+<book>
+        <title>No Sweetness Here</title>
+        <author> Ama Atta Aidoo</author>
+        <isbn>223489</isbn>
+        <publisher>Africa Publisher</publisher>
+        <edition>3rd edition</edition>
+        <price>60 cedis</price>
+</book>
+
+<book>
+        <title>The Lost Friend</title>
+        <author>Amankuah Kofi Gabriel</author>
+        <isbn>234467</isbn>
+        <publisher>Africa Publisher</publisher>
+        <edition>2nd edition</edition>
+        <price>70</price>
+</book>
+
+<book>
+        <title>The Lost Friend</title>
+        <author>Kweku Frimpong</author>
+        <isbn>356798</isbn>
+        <publisher>Africa Publisher</publisher>
+        <edition>1st edition</edition>
+        <price>100 cedis</price>
+</book>
+
+<book>
+        <title>The God's Are Not To Be Blame</title>
+        <author>Mumuni J Yussif</author>
+        <isbn>2445556</isbn>
+        <publisher>Africa Publisher</publisher>
+        <edition>4th edition</edition>
+        <price>80 cedis</price>
+</book>
+
+</books>
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+books {
+    display: table;
+    border: solid black;
+    border-spacing: 2px;
+    display:table;
+	padding:20px;
+	margin: 60px auto; 
+    
+    
+   
+}
+book > *{
+    display:table-row;
+    display: table-cell;
+    border:1px;
+    padding:20px;
+    border: solid black;
+    
+}
+
+book{
+    display:table-row-group;
+   
+}
+author{
+    color:blueviolet;
+    font-weight:bold;
+    text-transform:capitalize;
+}
+header{
+    background-color:grey;
+    color: red;
+    font-size: larger;
+    font-weight: bolder;
+}

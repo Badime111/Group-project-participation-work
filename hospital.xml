@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/hospital.css"?>
+<hospital>
+    <patient>
+        <name>
+            <first_name>John</first_name>
+            <middle_name>Edward</middle_name>
+            <last_name>Doe</last_name>
+        </name>
+        <social_security_number>123-45-6789</social_security_number>
+        <age>35</age>
+        <room_number>101</room_number>
+        <insurance>
+            <primary>
+                <company>ABC Insurance</company>
+                <member_id>ABC123456</member_id>
+                <group_number>G12345</group_number>
+                <address>123 Main St, City, State, ZIP</address>
+            </primary>
+            <secondary>
+                <company>XYZ Insurance</company>
+                <member_id>XYZ987654</member_id>
+                <group_number>X98765</group_number>
+                <address>456 Oak St, City, State, ZIP</address>
+            </secondary>
+        </insurance>
+        <medical_problems>
+            <problem>Hypertension</problem>
+            <problem>Diabetes</problem>
+        </medical_problems>
+        <drug_allergies>
+            <allergy>Penicillin</allergy>
+        </drug_allergies>
+    </patient>
+    <patient>
+        <!-- Information for another patient goes here -->
+    </patient>
+    <patient>
+        <!-- Information for another patient goes here -->
+    </patient>
+    <patient>
+        <!-- Information for another patient goes here -->
+    </patient>
+</hospital>

@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    display: table;
+}
+
+patient *{
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+name {
+    font-weight: bold;
+}
+
+insurance {
+    margin-top: 10px;
+}
+
+medical_problems, drug_allergies {
+    margin-top: 10px;
+}
+
+problem, allergy {
+    margin-left: 20px;
+}
